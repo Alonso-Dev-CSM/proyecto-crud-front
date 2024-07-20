@@ -3,7 +3,9 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "module": "esnext",
+    "baseUrl": "",
+    "types": ["node"]
   },
   "files": [
     "src/main.ts"
