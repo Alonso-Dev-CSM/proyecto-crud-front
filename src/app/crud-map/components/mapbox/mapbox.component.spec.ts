@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import MapboxComponent from './mapbox.component';
+import { MapboxComponent } from './mapbox.component';
 
 describe('MapboxComponent', () => {
   let component: MapboxComponent;

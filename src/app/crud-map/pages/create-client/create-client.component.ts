@@ -1,8 +1,10 @@
 import { RouterModule } from '@angular/router';
 import { Component } from '@angular/core';
 
+
+// import { MapboxComponent } from '../../components';
+
 // import { MapboxService, PlacesService } from '../../services';
-import MapboxComponent from '../../components/mapbox/mapbox.component';
 
 @Component({
   selector: 'app-create-client',

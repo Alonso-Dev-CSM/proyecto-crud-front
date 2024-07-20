@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import MapboxComponent from '../../components/mapbox/mapbox.component';
+// import { MapboxComponent } from '../../components';
 
 @Component({
   selector: 'app-update-client',
   standalone: true,
-  imports: [RouterModule, MapboxComponent],
+  imports: [],
   templateUrl: './update-client.component.html',
   styles: ``
 })
